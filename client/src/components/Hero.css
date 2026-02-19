@@ -1,0 +1,114 @@
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+/* Center headline */
+.hero-center {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+}
+
+.hero-center h1,
+.hero-center h2 {
+  position: relative;
+  top: -80px;
+}
+
+.hero-center h2 {
+  font-size: 31px;
+  font-weight: 400;   /* 👈 normal text */
+  margin-top: 10px;
+}
+
+
+/* Bottom left info blocks */
+.hero-bottom-info {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  display: flex;
+  gap: 60px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero-info {
+  max-width: 220px;
+}
+
+.hero-line {
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+
+.hero-info h4 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero-info p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* ---------- RESPONSIVE HERO ---------- */
+@media (max-width: 1024px) {
+  .hero-center h1 {
+    font-size: 32px;
+  }
+
+  .hero-center h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-center {
+    padding: 0 20px;
+  }
+
+  .hero-center h1 {
+    font-size: 26px;
+  }
+
+  .hero-center h2 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-center h1 {
+    font-size: 22px;
+  }
+
+  .hero-center h2 {
+    font-size: 18px;
+  }
+}
+
+.hero-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px 60px;
+}
+
+@media (max-width: 768px) {
+  .hero-bottom {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+}

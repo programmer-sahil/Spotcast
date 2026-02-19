@@ -1,0 +1,21 @@
+.cta {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cta h2 {
+  font-size: 36px;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+}

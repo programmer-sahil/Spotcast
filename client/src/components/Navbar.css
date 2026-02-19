@@ -1,0 +1,82 @@
+/* ===== NAVBAR BASE ===== */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.logo img {
+  height: 42px;
+}
+
+/* ===== DESKTOP MENU ===== */
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+/* ===== HAMBURGER ===== */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 26px;
+  height: 2px;
+  background: #000;
+}
+
+/* ===== MOBILE MENU ===== */
+.mobile-menu {
+  display: none;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 20px 24px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px 24px;
+    gap: 20px;
+  }
+
+  .mobile-menu a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #000;
+  }
+}

@@ -1,0 +1,71 @@
+/* Section background */
+.intro-section {
+  background: #f3f6f5; /* Figma-like light grey */
+  padding: 120px 80px;
+}
+
+/* Container */
+.intro-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* LEFT TEXT */
+.intro-left h2 {
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+/* RIGHT TEXT */
+.intro-right p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 520px;
+}
+
+/* ------------------- */
+/* RESPONSIVE */
+/* ------------------- */
+
+@media (max-width: 1024px) {
+  .intro-section {
+    padding: 90px 40px;
+  }
+
+  .intro-container {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .intro-left h2 {
+    font-size: 32px;
+  }
+
+  .intro-right p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-section {
+    padding: 70px 20px;
+  }
+
+  .intro-left h2 {
+    font-size: 28px;
+  }
+}

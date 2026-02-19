@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "logo": "/assets/images/logo.png",
+    "links": [
+      { "label": "Services", "url": "/services" },
+      { "label": "Contact", "url": "/contact" }
+    ]
+  },
+
+  "hero": {
+    "title": "DO PODCAST",
+    "subtitle": "AT YOUR PREMIUM & COMFORTABLE SPACE",
+    "backgroundImage": "/assets/images/banner-1.png"
+  },
+
+  "intro": {
+    "heading": "YOUR IDEA\nYOUR VOICE\nWE RECORD",
+    "description": "Spotcast is a flexible podcast production crew that brings the studio to you. We record anywhere you prefer—indoors, outdoors, or on-location—and deliver high-quality voice and audio podcasts."
+  },
+
+  "stories": [
+    {
+      "title": "The Morning Rush Podcast",
+      "image": "/assets/images/podcast-image.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Dubai Roundtable",
+      "image": "/assets/images/work/roundtable.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Desert Diaries",
+      "image": "/assets/images/work/desert.jpg",
+      "link": "#"
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Mobile Podcast Production",
+      "description": "A fully equipped podcast studio brought directly to your office, home, or any location you choose."
+    },
+    {
+      "title": "Cinematic Set Podcasts",
+      "description": "High-quality cinematic setups for premium podcast experiences."
+    },
+    {
+      "title": "Studio Podcast",
+      "description": "Professional studio-based podcast recording."
+    },
+    {
+      "title": "Video Editing & Post-Production",
+      "description": "End-to-end editing and post-production services."
+    }
+  ],
+
+  "cta": {
+    "text": "LET’S RECORD YOUR STORY",
+    "buttonLabel": "GET A FREE QUOTE",
+    "buttonLink": "/contact"
+  },
+
+  "footer": {
+    "company": "Spotcast",
+    "address": "The Burlington Tower, Business Bay, Dubai",
+    "phone": "+971 000 000 000",
+    "email": "info@spotcast.ae",
+    "copyright": "© 2025 Spotcast. All rights reserved."
+  }
+}
